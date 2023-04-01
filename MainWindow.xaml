@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:weight_conversion"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="0,0,0.333,-19.333">
+        <Button x:Name="btnAllClear1" Content="清除" HorizontalAlignment="Left" Margin="55,40,0,0" VerticalAlignment="Top" Width="58" Height="30" Click="btnAllClear1_Click"/>
+        <Label Content="毫克" HorizontalAlignment="Left" Margin="55,98,0,0" VerticalAlignment="Top"/>
+        <Label Content="公克" HorizontalAlignment="Left" Margin="221,98,0,0" VerticalAlignment="Top"/>
+        <Label Content="公斤" HorizontalAlignment="Left" Margin="400,98,0,0" VerticalAlignment="Top"/>
+        <Label Content="公噸" HorizontalAlignment="Left" Margin="55,200,0,0" VerticalAlignment="Top"/>
+        <Label Content="盎司" HorizontalAlignment="Left" Margin="221,200,0,0" VerticalAlignment="Top"/>
+        <Label Content="磅" HorizontalAlignment="Left" Margin="400,200,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtmg" HorizontalAlignment="Left" Height="23" Margin="55,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtmg_KeyUp" />
+        <TextBox x:Name="txtgram" HorizontalAlignment="Left" Height="23" Margin="221,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtgram_TextChanged"/>
+        <TextBox x:Name="txtkilogram" HorizontalAlignment="Left" Height="23" Margin="400,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtkilogram_TextChanged"/>
+        <TextBox x:Name="txtmt" HorizontalAlignment="Left" Height="23" Margin="55,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtmt_TextChanged"/>
+        <TextBox x:Name="txtounce" HorizontalAlignment="Left" Height="23" Margin="221,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtounce_TextChanged"/>
+        <TextBox x:Name="txtpound" HorizontalAlignment="Left" Height="23" Margin="400,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtpound_TextChanged"/>
+        <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Height="23" Margin="55,340,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="465"/>
+        <Label Content="說明文字" HorizontalAlignment="Left" Margin="55,300,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
